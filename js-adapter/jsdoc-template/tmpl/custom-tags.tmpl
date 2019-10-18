@@ -1,0 +1,11 @@
+<?js
+  var tags = obj
+?>
+
+<?js tags.forEach(function(tag) { ?>
+
+  <?js if (tag.title === 'experimental') { ?>
+    <div class="custom-tag experimental">EXPERIMENTAL</div>
+  <?js } ?>
+
+<?js }); ?>
